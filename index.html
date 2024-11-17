@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penugasan Front End OTI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      class="js-site-favicon"
+      type="image/svg+xml"
+      href="https://github.githubassets.com/favicons/favicon-dark.svg"
+    />
+    <script src="wcss.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="landing.html" class="logo">OmahTI Analytics</a>
+      <nav class="navbar">
+        <a href="#">Divisions</a>
+        <a href="#">Features</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+        <div class="mode">
+            <a href="javascript:void(0);" class="icon" onclick="toggleMode()">
+                <img src="Sun.png" alt="Toggle Light Mode" width="26px" height="26px" />
+            </a>
+        </div>
+      <button class="sign-in">Sign In</button>
+      <button class="sign-up">Sign Up</button>
+    </header>
+    <section class="one">
+        <div class="op">
+            <p>All OmahTI Divisions -></p>
+        </div>
+        <div class="landing">
+            <h1>Get essential insights <br>on OmahTI.</h1>
+        </div>
+        <div class="buttons">
+            <a href="#1"><button class="start">Get Started</button></a>
+            <button class="more">More Analytics</button>
+        </div>
+    </section>  
+    <section class="artikel" id="1">
+        <div class="kiri">
+            <div class="topleft">
+                <img src="Topleft.png" alt="mode" width="20px" height="12px" />
+                <p>Project Tracking</p>
+            </div>
+            <h2>
+                Monitor progress and contributions across <span>all OmahTI projects.</span>
+            </h2>
+            <img src="Analytics-bro.png" alt="mode" class="ls" width="543px" height="315px" />
+          </div>
+        <div class="kanan">
+            <div class="topright">
+                <img src="Topright.png" alt="mode" width="18px" height="18px" />
+                <p>Competition Analytics</p>
+            </div>
+            <h2>
+                Track participation and contributions <span>in IT Competitions.</h2></span>
+            </h2>
+            <img src="Achievement-bro.png" alt="mode" class="rs" width="543px" height="315px" />
+          </div>
+    </section>
+    <div class="container">
+        <section class="list">
+            <!-- Left section -->
+            <div class="left">
+                <h2>Latest projects and winnings by OmahTI divisions.</h2>
+                <p>Contributors</p>
+                <ul>
+                    <li>Andreandhiki Riyanta</li>
+                    <li>Fahmi Shampoerna</li>
+                    <li>Daniel Tulung</li>
+                    <li class="hidden" data-hidden="true">Rama Andika Pratama</li>
+                    <li class="hidden" data-hidden="true">Muhammad Hanif</li>
+                    <li class="hidden" data-hidden="true">Wibi Laksono Wijaya</li>
+                </ul>
+                <p class="leftexpand" onclick="toggleRow()">+3 more</p>
+            </div>
+            
+            <!-- Right section -->
+            <div class="right">
+                <div class="row">
+                    <div class="block">
+                        <div class="image-container">
+                            <img src="Screenshot 2024-10-05 004146.png" alt="OmahTI Learning Center">
+                        </div>
+                        <p>OmahTI Learning Center</p>
+                    </div>
+                    <div class="block">
+                        <div class="image-container">
+                            <img src="Screenshot 2024-10-05 004146.png" alt="Data Royale">
+                        </div>
+                        <p>Data Royale</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="block">
+                        <div class="image-container">
+                            <img src="Screenshot 2024-10-05 004146.png" alt="OemOem">
+                        </div>
+                        <p>OemOem</p>
+                    </div>
+                    <div class="block">
+                        <div class="image-container">
+                            <img src="Screenshot 2024-10-05 004146.png" alt="1st Place Datathon">
+                        </div>
+                        <p>1st Place Datathon</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="block">
+                        <div class="image-container">
+                            <img src="Screenshot 2024-10-05 004146.png" alt="PORSENIGAMA">
+                        </div>
+                        <p>PORSENIGAMA</p>
+                    </div>
+                    <div class="block">
+                        <div class="image-container">
+                            <img src="Screenshot 2024-10-05 004146.png" alt="FMIPA Projects">
+                        </div>
+                        <p>FMIPA Projects</p>
+                    </div>
+                </div>
+                <div class="row hidden" data-hidden="true">
+                    <div class="block">
+                        <div class="image-container">
+                            <img src="Screenshot 2024-10-05 004146.png" alt="PORSENIGAMA">
+                        </div>
+                        <p>MALPRES MIPA</p>
+                    </div>
+                    <div class="block">
+                        <div class="image-container">
+                            <img src="Screenshot 2024-10-05 004146.png" alt="FMIPA Projects">
+                        </div>
+                        <p>FEB UGM's Website</p>
+                    </div>
+                </div>
+                <div class="row hidden" data-hidden="true">
+                    <div class="block">
+                        <div class="image-container">
+                            <img src="Screenshot 2024-10-05 004146.png" alt="PORSENIGAMA">
+                        </div>
+                        <p>KOPASSUS</p>
+                    </div>
+                </div>
+                <button class="rightexpand " onclick="toggleRows()" ><img src="V.png" alt="V" width="9.5px" height="5.87px">More</button>
+            </div>
+
+            <!-- Solid line only for the list section -->
+            <div class="vertical-line-solid"></div>
+        </section>
+
+        <!-- Bottom section with dashed line at the top -->
+        <section class="bottom">
+            <div class="vertical-line-dashed"></div>
+            <p><span>Ready to share?</span> Start by creating an account.  <br>Speak to an <a href="#">expert</a> if you need assistance.</p>
+            <div class="buttons">
+                <button class="sign-up">Sign Up</button>
+                <button class="contact">Contact</button>
+            </div>
+        </section>
+    </div>
+    <footer>
+      <div class="left">
+        <ul>
+          <li class="head">Information</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Cookie Policy</li>
+          <li>Terms and Condition</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="mid">
+        <ul>
+          <li class="head">Social</li>
+          <li>Github</li>
+          <li>Instagram</li>
+          <li>LinkedIn</li>
+          <li>Twitter</li>
+        </ul>
+      </div>
+      <div class="right">
+        <ul><li>All system normal</li></ul>
+      </div>
+    </footer>
+  </body>
+</html>
